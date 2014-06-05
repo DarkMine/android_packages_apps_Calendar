@@ -80,12 +80,9 @@
     <string name="empty_event" msgid="9018699257414338634">"Нельзя создать мероприятие без данных."</string>
     <string name="creating_event_with_guest" msgid="5758688413124191931">"Приглашения будут отправлены."</string>
     <string name="saving_event_with_guest" msgid="9184584438475689577">"Обновления будут отправлены."</string>
-    <!-- Toast message displayed responding to an event from an email as accepted	[CHAR LIMIT=50] -->
-    <string name="rsvp_accepted">"Ответ \"Да\"".</string>
-    <!-- Toast message displayed responding to an event from an email as tentative [CHAR LIMIT=50] -->
-    <string name="rsvp_tentative">"Ответ \"Возможно\"".</string>
-    <!-- Toast message displayed responding to an event from an email as declined [CHAR LIMIT=50] -->
-    <string name="rsvp_declined">"Ответ \"Нет\"".</string>
+    <string name="rsvp_accepted" msgid="8146618862268962727">"Вы пойдете"</string>
+    <string name="rsvp_tentative" msgid="6545510359501328718">"Вы, возможно, пойдете"</string>
+    <string name="rsvp_declined" msgid="8686330037802222895">"Вы не пойдете"</string>
     <string name="create_event_dialog_save" msgid="1080859798521717414">"Сохранить"</string>
     <string name="alert_title" msgid="7869592820853066853">"Уведомления календаря"</string>
     <string name="event_info_title" msgid="56024222340421620">"Просмотр мероприятия"</string>
@@ -158,12 +155,12 @@
   </plurals>
   <plurals name="daily">
     <item quantity="one" msgid="5169052946627480942">"Ежедневно"</item>
-    <item quantity="other" msgid="5455230727715859264">"Раз в <xliff:g id="NUMBER">%d</xliff:g> дн."</item>
+    <item quantity="other" msgid="5455230727715859264">"Раз в <xliff:g id="NUMBER">%d</xliff:g> дн."</item>
   </plurals>
     <string name="every_weekday" msgid="5896574838353902978">"Каждый будний день (пн–пт)"</string>
   <plurals name="weekly">
     <item quantity="one" msgid="5463021019301453273">"Еженедельно (<xliff:g id="DAYS_OF_WEEK">%2$s</xliff:g>)"</item>
-    <item quantity="other" msgid="2857390143157377867">"Кажд. <xliff:g id="NUMBER">%1$d</xliff:g> нед. (<xliff:g id="DAYS_OF_WEEK">%2$s</xliff:g>)"</item>
+    <item quantity="other" msgid="2857390143157377867">"Кажд. <xliff:g id="NUMBER">%1$d</xliff:g> нед. (<xliff:g id="DAYS_OF_WEEK">%2$s</xliff:g>)"</item>
   </plurals>
     <string name="monthly" msgid="4587116285383048586">"Ежемесячно"</string>
     <string name="yearly_plain" msgid="3652692085322162449">"Ежегодно"</string>
@@ -255,19 +252,19 @@
     <string name="recurrence_dialog_title" msgid="8093909645557717483">"Повтор"</string>
     <string name="recurrence_dialog_title_never" msgid="2679396029776590130">"Никогда"</string>
   <plurals name="recurrence_interval_daily">
-    <item quantity="one" msgid="1205422710088692631">"Интервал: <xliff:g id="COUNT">%d</xliff:g> д."</item>
-    <item quantity="other" msgid="707566499994398250">"Интервал: <xliff:g id="COUNT">%d</xliff:g> дн."</item>
+    <item quantity="one" msgid="1205422710088692631">"Интервал: <xliff:g id="COUNT">%d</xliff:g> д."</item>
+    <item quantity="other" msgid="707566499994398250">"Интервал: <xliff:g id="COUNT">%d</xliff:g> дн."</item>
   </plurals>
   <plurals name="recurrence_interval_weekly">
-    <item quantity="one" msgid="4948681635464488351">"Интервал: <xliff:g id="COUNT">%d</xliff:g> нед."</item>
-    <item quantity="other" msgid="7094801039989237061">"Интервал: <xliff:g id="COUNT">%d</xliff:g> нед."</item>
+    <item quantity="one" msgid="4948681635464488351">"Интервал: <xliff:g id="COUNT">%d</xliff:g> нед."</item>
+    <item quantity="other" msgid="7094801039989237061">"Интервал: <xliff:g id="COUNT">%d</xliff:g> нед."</item>
   </plurals>
   <plurals name="recurrence_interval_monthly">
-    <item quantity="one" msgid="4768178401603139718">"Интервал: <xliff:g id="COUNT">%d</xliff:g> мес."</item>
-    <item quantity="other" msgid="5419723710346646523">"Интервал: <xliff:g id="COUNT">%d</xliff:g> мес."</item>
+    <item quantity="one" msgid="4768178401603139718">"Интервал: <xliff:g id="COUNT">%d</xliff:g> мес."</item>
+    <item quantity="other" msgid="5419723710346646523">"Интервал: <xliff:g id="COUNT">%d</xliff:g> мес."</item>
   </plurals>
   <plurals name="recurrence_interval_yearly">
-    <item quantity="one" msgid="5819562634008179102">"Интервал: <xliff:g id="COUNT">%d</xliff:g> г."</item>
+    <item quantity="one" msgid="5819562634008179102">"Интервал: <xliff:g id="COUNT">%d</xliff:g> г."</item>
     <item quantity="other" msgid="5678653649746562060">"Интервал: <xliff:g id="COUNT">%d</xliff:g> гг./лет"</item>
   </plurals>
     <string name="recurrence_month_pattern_by_day" msgid="4400107556121003459">"ежемесячно"</string>
